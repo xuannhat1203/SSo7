@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.notification {
+  background-color: #555;
+  width: 50px;
+  height: 50px;
+  color: white;
+  text-decoration: none;
+  padding: 20px 26px;
+  position: relative;
+  display: inline-block;
+  border-radius: 15px;
+}
+.notification:hover {
+  background: red;
+}
+.inbox{
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+}
+.notification .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+}
+.material-symbols-outlined{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 5px;
+    border-radius: 50%;
+    color: white;
+}
+</style>
+</head>
+<body>
+<a href="#" class="notification">
+  <span class="inbox">Inbox</span>
+  <span class="badge">3</span>
+</a>
+<a href="#" class="notification two">
+    <span class="inbox">Inbox</span>
+    <span class="badge">0</span>
+</a>
+<a href="#" class="notification">
+    <span class="inbox">Inbox</span>
+    <span class="material-symbols-outlined">schedule</span>
+</a>
+</body>
+</html>

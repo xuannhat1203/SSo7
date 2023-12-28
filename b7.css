@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+table{
+    height: 300px;
+    border-collapse: collapse;
+}
+.img{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    margin-bottom: -50px;
+}
+.img2{
+    width: 160px;
+    height: 200px;
+}
+.text1{
+    padding-left: 55px;
+    color: gray;
+}
+.material-symbols-outlined{
+    padding-left: 0px;
+}
+.one{
+    padding: 10px 10px;
+}
+.name{
+    padding-top: 30px;
+    padding-left: 53px;
+}
+.material-symbols-outlined.span2{
+    padding-left: 20px;
+}
+.material-symbols-outlined.span3{
+    padding-left: 20px;
+}
